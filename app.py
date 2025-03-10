@@ -1,6 +1,33 @@
 import re
 import streamlit as st
 
+st.markdown(
+    """
+    <style>
+   .stApp{
+    background-color:#B0E0E6;} 
+  h1 {
+    color: #f63366;
+
+    font-weight: bold;
+}
+    .stButton {
+    color: #f63366;}
+
+    [data-testid="stTextInput"] svg {
+  
+    color: #f63366 !important;
+   
+   
+}
+
+
+
+    </style>
+    
+""" ,
+ unsafe_allow_html=True
+)
 
 st.title("🔐 Password Strength Checker")
 st.write("Enter your password to check its strength.")
